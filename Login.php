@@ -63,7 +63,7 @@
         </a>
         </div>
         <div id="div-form">
-        	<form id="formulario-login" action="Entrar.php", method="post">
+        	<form id="formulario-login" action="Entrar.php" method="post">
             	<div id="div-usuario">
                     <p>Usuário</p>
                     <input type="text" id="usuario" name="usuario" autofocus="autofocus" autocomplete="off">
