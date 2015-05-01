@@ -16,12 +16,18 @@
 		p{
 			margin-left: 45px;
 		}
-	
+		
+		input  {
+			color: #616475;
+			border-radius: 2px;
+			border:solid 1px #999999;
+		}
+		
 		#quadro-login{
 			border: 2px solid #000099;
 			border-radius: 50px;
 			margin-top: 9%;
-			margin-left: 40%;
+			margin-left: 38%;
 			width: 345px;
 			height: 305px;
 		}
@@ -46,7 +52,11 @@
 		
 		#div-botao{
 			padding-top: 30px;
-			padding-left: 40px;
+			padding-left: 32px;
+		}
+		
+		#div-botao input {
+			padding: 5px 10px 5px 10px
 		}
 		
 		#footer{
