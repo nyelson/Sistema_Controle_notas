@@ -13,15 +13,19 @@
     
     <style type="text/css">
 		
-		p{
-			margin-left: 45px;
+		p{margin-left: 45px;}
+		
+		input  {
+			color: #616475;
+			border-radius: 2px;
+			border:solid 1px #999999;
 		}
-	
+		
 		#quadro-login{
 			border: 2px solid #000099;
 			border-radius: 50px;
 			margin-top: 9%;
-			margin-left: 40%;
+			margin-left: 38%;
 			width: 345px;
 			height: 305px;
 		}
@@ -32,25 +36,19 @@
 			margin-top: 11px;
 		}
 		
-		#footer{
-			margin-top: 50px;
-		}
+		#footer{margin-top: 50px;}
 		
-		#div-form{
-			padding-left: 30%;
-		}
+		#div-form{padding-left: 30%;}
 		
-		#div-senha{
-			margin-top: 9px;
-		}
+		#div-senha{margin-top: 9px;}
+		
+		#div-botao input {padding: 5px 10px 5px 10px}
+		
+		#footer{margin-top: 13%;}
 		
 		#div-botao{
 			padding-top: 30px;
-			padding-left: 40px;
-		}
-		
-		#footer{
-			margin-top: 13%;
+			padding-left: 32px;
 		}
 	</style>
 </head>
@@ -59,7 +57,7 @@
 	<section id="quadro-login">
     	<div id="div-logo">
         <a href="Index.php">
-        	<img id="logo-sistema" alt="logo di sistema com link a pagina inicial" src="images/logo-login.png" width="160" height="100">
+        	<img id="logo-sistema" alt="logo do sistema com link que irá para a pagina inicial" src="images/logo-login.png" width="160" height="100">
         </a>
         </div>
         <div id="div-form">
@@ -88,11 +86,11 @@
                 <span>Institucional<span>
             </div> <!-- div-footer-titulo -->
             <ul>
-                <li><a href="#" title="Clique Aqui para Acessar a Página Inicial">Home</a></li>
+                <li><a href="Index.php" title="Clique Aqui para Acessar a Página Inicial">Home</a></li>
                 <li><a href="#" title="Clique Aqui para Conhecer a Graduação">Graduação</a></li>
                 <li><a href="#" title="Clique Aqui para Conhecer a Pós-Graduação">Pós-Graduação</a></li>
                 <li><a href="#" title="Clique Aqui para Conhecer os Cursos Intensivos">Intensivo</a></li>
-                <li><a href="#" title="Sobre o Sistema de Controle de Notas">Sobre</a></li>
+                <li><a href="Sobre.php" title="Sobre o Sistema de Controle de Notas">Sobre</a></li>
                 <li><a href="mailto:tiago.hsilva@al.infnet.edu.br" title="Entre em Contato Conosco">Contato</a></li>
             </ul>   
         </div> <!-- div-footer-Institucional -->
